@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>ระบบจองหอพักนักศึกษา</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="text-align: center;font-size:  50px" >ระบบจองหอพักนักศึกษา</div>
+        <form action="DetailS2" >
+            <br>
+            <br>
+            <div style="text-align: center;font-size:  18px" >
+                ชื่อ - นามสกุล 
+                <input type="text" name="NameS">
+                <br/> 
+                รหัสนักศึกษา 
+                <input type="text" name="Sid">
+                <br>
+                <br>       
+                เพศ 
+                <input type="radio" id="ชาย" name="Sex" value='ชาย'>
+                <label for='Male'>ชาย</label>
+                <input type="radio" id="หญิง" name="Sex" value='หญิง'>
+                <label for='Female'>หญิง</label> <br>
+                <br>
+                ชั้นปีที่ 
+                <select name="Classyear" id="Classyear">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <br>
+                <br>
+                เบอร์โทรติดต่อ 
+                <input type="text" name="Phone">
+                <br>
+                <br>
+                เบอร์โทรติดต่อผู้ปกครอง 
+                <input type="text" name="PPhone">
+                <br>
+                <br>
+                ชื่อผู้ปกครองที่ติดต่อได้ 
+                <input type="text" name="Pname">
+                <br>
+                <br>
+                <input type="submit" value="ลงทะเบียน">
+                </form></div>
+    </body>
+</html>
